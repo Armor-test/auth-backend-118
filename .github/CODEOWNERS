@@ -1,0 +1,36 @@
+# CODEOWNERS file for auth-backend-118
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-design @Armor-test/squad-product @Armor-test/team-frontend
+
+# Directory ownership
+/controllers/ @Armor-test/dept-notifications @Armor-test/dept-identity
+/test/ @Armor-test/dept-automation @Armor-test/grp-ui @Armor-test/squad-mobile
+/vendor/ @Armor-test/team-governance @Armor-test/squad-tooling
+/api/ @Armor-test/unit-design @Armor-test/dept-security
+/security/ @Armor-test/unit-devops @Armor-test/dept-logging @Armor-test/unit-governance
+/migrations/ @Armor-test/dept-ui @Armor-test/dept-test @Armor-test/dept-data
+/internal/ @Armor-test/dept-notifications @Armor-test/unit-cloud @Armor-test/squad-performance
+/third_party/ @Armor-test/grp-api @Armor-test/dept-logging
+/data/ @Armor-test/dept-notifications @Armor-test/squad-ux @Armor-test/unit-governance
+/build/ @Armor-test/dept-test @Armor-test/grp-api @Armor-test/squad-frontend
+/ui/ @Armor-test/team-logging @Armor-test/squad-search @Armor-test/dept-reliability
+/tools/ @Armor-test/grp-storage @Armor-test/team-frontend
+/web/ @Armor-test/dept-ui @Armor-test/grp-ui
+/common/ @Armor-test/unit-devops @Armor-test/grp-integration
+
+# File type ownership
+*.swift @Armor-test/team-research @Armor-test/team-governance
+*.yaml @Armor-test/dept-logging @Armor-test/team-logging
+*.tsx @Armor-test/unit-test @Armor-test/squad-ux @Armor-test/squad-cache
+*.rb @Armor-test/squad-ml @Armor-test/dept-test
+*.kt @Armor-test/squad-api @Armor-test/team-core @Armor-test/squad-mobile
+*.sh @Armor-test/grp-reporting @Armor-test/squad-database
+*.jsx @Armor-test/team-frontend @Armor-test/team-reporting
+*.toml @Armor-test/squad-ml @Armor-test/team-notifications @Armor-test/dept-ui
+*.scss @Armor-test/squad-search @Armor-test/squad-performance
+*.config @Armor-test/team-governance @Armor-test/grp-reporting
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
